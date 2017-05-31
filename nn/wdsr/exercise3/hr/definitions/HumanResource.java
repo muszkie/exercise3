@@ -1,5 +1,5 @@
 
-package wdsr.exercise3.hr.ws;
+package wdsr.exercise3.hr.definitions;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
@@ -7,9 +7,9 @@ import javax.jws.WebResult;
 import javax.jws.WebService;
 import javax.jws.soap.SOAPBinding;
 import javax.xml.bind.annotation.XmlSeeAlso;
-import wdsr.exercise3.hr.ws.HolidayRequest;
-import wdsr.exercise3.hr.ws.HolidayResponse;
-import wdsr.exercise3.hr.ws.ObjectFactory;
+import wdsr.exercise3.hr.schemas.HolidayRequest;
+import wdsr.exercise3.hr.schemas.HolidayResponse;
+import wdsr.exercise3.hr.schemas.ObjectFactory;
 
 
 /**

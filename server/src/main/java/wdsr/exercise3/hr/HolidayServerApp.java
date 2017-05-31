@@ -15,7 +15,7 @@ public class HolidayServerApp {
         new HolidayServerApp();
         System.out.println("Server ready..."); 
         
-        Thread.sleep(5 * 60 * 1000); 
+        Thread.sleep(500 * 60 * 1000); 
         System.out.println("Server exiting");
         System.exit(0);
     }
